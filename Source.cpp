@@ -3,7 +3,10 @@
 int main()
 {
 	system("chcp 1251");
-	printf("Я начал изучать Git!\n");
+
+	int a, b;
+	scanf_s("%i%i", &a, &b);
+	printf("%i\n", a + b);
 
 	system("pause");
 	return 0;
